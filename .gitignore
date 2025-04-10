@@ -16,6 +16,13 @@ ENV/
 # Логи
 *.log
 
+# Игнорируем Docker файлы
+*.log
+*.env
+docker-compose.override.yml
+.docker
+*.tar
+*.img
 
 # Кеш и зависимости
 pip-wheel-metadata/
